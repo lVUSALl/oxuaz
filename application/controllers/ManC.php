@@ -1,15 +1,15 @@
 <?php 
 class ManC extends CI_Controller{
     public function index(){
-        echo "Hello World !";
+        $this->load->view('User/index');
     }
     public function about(){
-        echo "About Metodu";
+        $this->load->view('User/about-us');
     }
     public function contact(){
-        echo "Kontankt";
+        $this->load->view('User/contact-us');
     }
-    public function cs(){
-        $this->load->view('User/home');
+    public function services(){
+        $this->load->view('User/our-services');
     }
 }
