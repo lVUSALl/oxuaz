@@ -1,15 +1,15 @@
 <?php 
-class ManC extends CI_Controller{
+class manc extends CI_Controller{
     public function index(){
-        $this->load->view('User/index');
+        $this->load->view('user/index');
     }
     public function about(){
-        $this->load->view('User/about-us');
+        $this->load->view('user/about-us');
     }
     public function contact(){
-        $this->load->view('User/contact-us');
+        $this->load->view('user/contact-us');
     }
     public function services(){
-        $this->load->view('User/our-services');
+        $this->load->view('user/our-services');
     }
 }
