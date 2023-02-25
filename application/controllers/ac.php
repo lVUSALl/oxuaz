@@ -61,4 +61,93 @@ class ac extends CI_Controller{
     //     $data['admin'] = $this->db->where('a_id', $_SESSION['admin_login_id'])->get('admin')->row_array();
     //     $this->load->view('admin/index', $data);
     // }
+// ---------------------------------------------------------------------------------------------------------------------------------------
+    // Post
+    public function news()
+    {
+        $data['get_all_news'] = $this->News_model->get_all_news();
+
+        $this->load->view('admin/news/news', $data);
+    }
+
+    public function news_create()
+    {
+        $data['get_all_categories'] = $this->News_model->get_all_categories();
+        $this->load->view('admin/news/create',$data);
+    }
+
+    public function news_create_act()
+    {
+
+        $title          = $_POST['title'];
+        $description    = $_POST['description'];
+        $date           = $_POST['date'];
+        $category       = $_POST['category'];
+        $status         = $_POST['status'];
+
+        if (!empty($title) && !empty($description) && !empty($date) && !empty($category) && !empty($status)) {
+
+
+            $config['upload_path']          = './uploads/news/';
+            $config['allowed_types']        = 'gif|jpg|png|mp3|jpeg|pdf';
+            $config['encrypt_name']         = TRUE;
+            // $config['max_size']             = 10000;
+            // $config['max_width']            = 1024;
+            // $config['max_height']           = 768;
+
+            $this->load->library('upload', $config);
+            $this->upload->initialize($config);
+
+            if ($this->upload->do_upload('user_img')){
+                $file_name = $this->upload->data('file_name');
+                $file_ext = $this->upload->data('file_ext');
+
+
+                $data = [
+                    'n_title'       => $title,
+                    'n_description' => $description,
+                    // 'url'           => $title."-".md5($description)
+                    'n_date'        => $date,
+                    'n_category'    => $category,
+                    'n_status'      => $status,
+                    'n_img'         => $file_name,
+                    'n_file_ext'    => $file_ext,
+                    'n_creator_id'  => $_SESSION['admin_login_id'],
+                    'n_create_date' => date("Y-m-d H:i:s")
+                ];
+                $data = $this->security->xss_clean($data);
+
+                // insert to db code
+                $this->News_model->insert_news($data);
+                 
+                // notification
+                $this->session->set_flashdata('success', "Xəbər uğurla əlavə olundu!");
+    
+                // redirect page
+                redirect(base_url('admin_news'));
+
+            }else{
+                $data = [
+                    'n_title'       => $title,
+                    'n_description' => $description,
+                    'n_date'        => $date,
+                    'n_category'    => $category,
+                    'n_status'      => $status,
+                    'n_creator_id'  => $_SESSION['admin_login_id'],
+                    'n_create_date' => date("Y-m-d H:i:s")
+                ];
+                $data = $this->security->xss_clean($data);
+                
+                // insert to db code
+                $this->News_model->insert_news($data);
+                $this->session->set_flashdata('success', "Xəbər uğurla əlavə olundu!");
+                redirect(base_url('admin_news'));
+            }
+
+        } else {
+            $this->session->set_flashdata('err', "Boşluq buraxmayın!");
+            redirect($_SERVER['HTTP_REFERER']);
+        }
+    }
+
 }

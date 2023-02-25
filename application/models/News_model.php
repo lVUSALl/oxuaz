@@ -1,6 +1,6 @@
 <?php  
 
-class course extends CI_Model{
+class News_model extends CI_Model{
 
     public function insert_news($data){
         $this->db->insert('news', $data);
@@ -18,6 +18,7 @@ class course extends CI_Model{
         return $this->db
             ->where('n_creator_id',$_SESSION['admin_login_id'])
             ->order_by('n_id', 'DESC')
+            // ->join('admin', 'admin.a_id = news.n_creator_id', 'left')
             ->join('admin', 'admin.a_id = news.n_updater_id', 'left')
             ->get('news')->result_array();
     }
