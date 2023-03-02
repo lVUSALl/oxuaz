@@ -64,6 +64,20 @@ $route['log_out']          = 'ac/log_out';
 
 $route['admin_dashboard']  = 'ac/dashboard';
 
+$route['admin_news']       = 'ac/news';
+
+
+$route['admin_news_create']     = 'ac/news_create';
+$route['admin_news_create_act'] = 'ac/news_create_act';
+
+
+$route['admin_news_delete/(.*)'] = 'ac/delete_news/$1';
+$route['admin_news_detail/(.*)'] = 'ac/news_detail/$1';
+
+
+$route['admin_news_edit/(.*)']     = 'ac/news_edit/$1';
+$route['admin_news_edit_act/(.*)'] = 'ac/news_edit_act/$1';
+$route['admin_news_img_delete/(.*)'] = 'ac/news_img_delete/$1';
 
 // XSide
 $route['404_override'] = '';

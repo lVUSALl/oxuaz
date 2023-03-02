@@ -65,14 +65,14 @@ class ac extends CI_Controller{
     // Post
     public function news()
     {
-        $data['get_all_news'] = $this->News_model->get_all_news();
+        $data['get_all_news'] = $this->course->get_all_news();
 
         $this->load->view('admin/news/news', $data);
     }
 
     public function news_create()
     {
-        $data['get_all_categories'] = $this->News_model->get_all_categories();
+        $data['get_all_categories'] = $this->course->get_all_categories();
         $this->load->view('admin/news/create',$data);
     }
 
@@ -118,7 +118,7 @@ class ac extends CI_Controller{
                 $data = $this->security->xss_clean($data);
 
                 // insert to db code
-                $this->News_model->insert_news($data);
+                $this->course->insert_news($data);
                  
                 // notification
                 $this->session->set_flashdata('success', "Xəbər uğurla əlavə olundu!");
@@ -139,7 +139,7 @@ class ac extends CI_Controller{
                 $data = $this->security->xss_clean($data);
                 
                 // insert to db code
-                $this->News_model->insert_news($data);
+                $this->course->insert_news($data);
                 $this->session->set_flashdata('success', "Xəbər uğurla əlavə olundu!");
                 redirect(base_url('admin_news'));
             }
@@ -149,5 +149,125 @@ class ac extends CI_Controller{
             redirect($_SERVER['HTTP_REFERER']);
         }
     }
+    public function delete_news($id)
+    {
+        $id = $this->security->xss_clean($id);
+        
+        $this->course->delete_news_from_id($id);
+        $this->session->set_flashdata('success', "Məlumat uğurla silindi!");
+        redirect(base_url('admin_news'));
+    }
+
+    public function news_detail($id){
+
+        $id = $this->security->xss_clean($id);
+
+        $data['single_news'] = $this->course->get_single_news($id);
+        // print_r('<pre>');
+        // print_r($data['single_news']);
+        // die();
+
+
+        $this->load->view('admin/news/detail',$data);
+    }
+
+    public function news_edit($id){
+        $id = $this->security->xss_clean($id);
+
+        $data['get_all_categories'] = $this->course->get_all_categories();
+        $data['get_single_data'] = $this->db->where('n_id',$id)->get('news')->row_array();
+        $this->load->view('admin/news/edit',$data);
+    }
+
+    public function news_edit_act($id){
+
+        $id = $this->security->xss_clean($id);
+
+        $title          = $_POST['title'];
+        $description    = $_POST['description'];
+        $date           = $_POST['date'];
+        $category       = $_POST['category'];
+        $status         = $_POST['status'];
+
+        if (!empty($title) && !empty($description) && !empty($date) && !empty($category) && !empty($status)) {
+            
+            $config['upload_path']          = './uploads/news/';
+            $config['allowed_types']        = 'gif|jpg|png|mp3|jpeg|pdf';
+            $config['encrypt_name']         = TRUE;
+
+            $this->load->library('upload', $config);
+            $this->upload->initialize($config);
+
+            if ($this->upload->do_upload('user_img')){
+                $file_name = $this->upload->data('file_name');
+                $file_ext = $this->upload->data('file_ext');
+
+                $data = [
+                    'n_title'       => $title,
+                    'n_description' => $description,
+                    'n_date'        => $date,
+                    'n_category'    => $category,
+                    'n_status'      => $status,
+                    'n_img'         => $file_name,
+                    'n_file_ext'    => $file_ext,
+                    'n_updater_id'  => $_SESSION['admin_login_id'],
+                    'n_update_date' => date("Y-m-d H:i:s")
+                ];
+
+                $data = $this->security->xss_clean($data);
+                
+                // insert to db code
+                $this->course->update_news($id, $data);
+                 
+                // notification
+                $this->session->set_flashdata('success', "Xəbər uğurla yeniləndi!");
+    
+                // redirect page
+                redirect(base_url('admin_news'));
+
+            }else{
+                
+                $data = [
+                    'n_title'       => $title,
+                    'n_description' => $description,
+                    'n_date'        => $date,
+                    'n_category'    => $category,
+                    'n_status'      => $status,
+                    'n_updater_id'  => $_SESSION['admin_login_id'],
+                    'n_update_date' => date("Y-m-d H:i:s")
+                ];
+                $data = $this->security->xss_clean($data);
+                
+                // update in db info
+                $this->course->update_news($id, $data);
+                $this->session->set_flashdata('success', "Xəbər uğurla yeniləndi!");
+                redirect(base_url('admin_news'));
+            }
+
+        }else{
+            $this->session->set_flashdata('err', "Boşluq buraxmayın!");
+            redirect($_SERVER['HTTP_REFERER']);
+        }
+
+
+    }
+
+    public function news_img_delete($id){
+     
+        $id = $this->security->xss_clean($id);
+        
+        $data = [
+            'n_img' =>"",
+            'n_file_ext' =>"",
+        ];
+
+        $data = $this->security->xss_clean($data);
+
+        $this->course->update_news($id, $data);
+        $this->session->set_flashdata('success', "Şəkil uğurla silindi!");
+        redirect($_SERVER['HTTP_REFERER']);
+        
+    }
+    
 
 }

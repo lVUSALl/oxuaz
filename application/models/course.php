@@ -29,7 +29,7 @@ class course extends CI_Model{
         ->get('news')->row_array();
 
     }
-
+    
     public function get_all_categories(){
         return $this->db->get('category')->result_array();
     }
