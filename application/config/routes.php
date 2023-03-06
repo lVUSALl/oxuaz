@@ -58,6 +58,7 @@ $route['contact']   = 'manc/contact';
 $route['services']  = 'manc/services';
 
 // AdminSide
+
 $route['login_dashboard']  = 'ac/index';
 $route['login_act']        = 'ac/login_act';
 $route['log_out']          = 'ac/log_out';

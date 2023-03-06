@@ -6,12 +6,17 @@ class ac extends CI_Controller{
         $this->load->model('course');
     }
 
+
     public function index(){
         $this->load->view('admin/auth-login-basic');
     }
 
     public function dashboard(){
         $this->load->view('admin/index');
+        $data['get_all_course'] = $this->course->get_all_course();
+        // print_r("<pre>");
+        // print_r($data['get_all_course']);
+        // die;
     }
 
     public function login_act()
@@ -27,10 +32,6 @@ class ac extends CI_Controller{
             ];
             $data = $this->security->xss_clean($data);
 
-            // print_r('<pre>');
-            // print_r($data);
-            // die();
-
             $check_admin = $this->db->where($data)->get('admin')->row_array();
 
             if ($check_admin) {
@@ -39,7 +40,7 @@ class ac extends CI_Controller{
                 $_SESSION['admin_login_name'] = $check_admin['a_name'];
                 redirect(base_url('admin_dashboard'));
             } else {
-                $this->session->set_flashdata('err', 'Email ve ya sifre yalnisdir!');
+                $this->session->set_flashdata('err', 'Email və ya Şifrə səhvdir!');
                 redirect($_SERVER['HTTP_REFERER']);
             }
         } else {
@@ -50,7 +51,7 @@ class ac extends CI_Controller{
 
     public function log_out()
     {
-        $this->session->set_flashdata('success', 'Sizi gozleyeceyem!');
+        $this->session->set_flashdata('success', 'Səni Gözləyəcik!');
         unset($_SESSION['admin_login_id']);
         redirect(base_url('login_dashboard'));
     }
@@ -65,7 +66,7 @@ class ac extends CI_Controller{
     // Post
     public function news()
     {
-        $data['get_all_news'] = $this->course->get_all_news();
+        $data['get_all_course'] = $this->course->get_all_course();
 
         $this->load->view('admin/news/news', $data);
     }

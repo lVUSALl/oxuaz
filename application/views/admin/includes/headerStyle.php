@@ -1,5 +1,5 @@
 <?php if(!isset($_SESSION['admin_login_id'])){
-  $this->session->set_flashdata('err','Zehmet olmasa username ve password daxil edin!');
+  $this->session->set_flashdata('err','Zəhmət olmasa Email və ya Parolu düzgün daxil edin !');
   redirect(base_url('login_dashboard'));
 } ?>
 
@@ -15,7 +15,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Dashboard - Analytics | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+  <title>Oxu.Az | Admin Dashboard</title>
 
   <meta name="description" content="" />
 
@@ -29,6 +29,8 @@
 
   <!-- Icons. Uncomment required icon fonts -->
   <link rel="stylesheet" href="<?php echo base_url("assets/admin/"); ?>assets/vendor/fonts/boxicons.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
 
   <!-- Core CSS -->
   <link rel="stylesheet" href="<?php echo base_url("assets/admin/"); ?>assets/vendor/css/core.css" class="template-customizer-core-css" />
@@ -41,7 +43,8 @@
   <link rel="stylesheet" href="<?php echo base_url("assets/admin/"); ?>assets/vendor/libs/apex-charts/apex-charts.css" />
 
   <!-- Page CSS -->
-
+  <link rel="stylesheet" href="<?php echo base_url('assets/admin/'); ?>assets/vendor/css/lldf.css" />
+  <link rel="stylesheet" href="<?php echo base_url('assets/admin/'); ?>assets/vendor/css/csd.css" />
   <!-- Helpers -->
   <script src="<?php echo base_url("assets/admin/"); ?>assets/vendor/js/helpers.js"></script>
 

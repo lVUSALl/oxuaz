@@ -53,7 +53,7 @@ $this->load->view('admin/includes/headerStyle'); ?>
                     <tbody>
                        
                         
-                        <?php $say = 0; foreach ($get_all_news as $item) { $say++ ?>
+                        <?php $say = 0; foreach ($get_all_course as $item) { $say++ ?>
                             <tr>
                                 <td><?php echo $say; ?></td>
                                 <td><?php echo $item['n_title']; ?></td>

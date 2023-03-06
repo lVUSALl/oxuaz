@@ -14,7 +14,7 @@ class course extends CI_Model{
         $this->db->where('n_id', $id)->delete('news');
     }
 
-    public function get_all_news(){
+    public function get_all_course(){
         return $this->db
             ->where('n_creator_id',$_SESSION['admin_login_id'])
             ->order_by('n_id', 'DESC')
