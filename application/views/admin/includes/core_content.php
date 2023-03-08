@@ -32,11 +32,12 @@
               </div>
             </div>
             <div class="content-one">
-            <button class="col-lg-2 csd" style="float: right" >
-              <a href="<?php echo base_url("admin_news"); ?>" class="menu-link">
-                      <i class="menu-icon tf-icons bx bx-crown"></i>
-                      <div data-i18n="Boxicons">Kursları Yenilə</div>
-              </a>
-            </button>
-            </div>
+              <button class="col-lg-2 csd" style="float: right" >
+                <a href="<?php echo base_url("admin_news"); ?>" class="menu-link">
+                       <i class="menu-icon tf-icons bx bx-crown"></i>
+                       <div data-i18n="Boxicons">Kursları Yenilə</div>
+                </a>
+             </button>
+
+             
 </div>

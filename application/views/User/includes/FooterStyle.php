@@ -28,6 +28,9 @@
     <script src="<?php echo base_url('assets/User/'); ?>assets/js/video.js"></script>
     <script src="<?php echo base_url('assets/User/'); ?>assets/js/slick-slider.js"></script>
     <script src="<?php echo base_url('assets/User/'); ?>assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="<?php echo base_url('assets/User/'); ?>assets/js/auto-type-index.js"></script>
+    
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');

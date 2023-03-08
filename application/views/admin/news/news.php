@@ -15,7 +15,11 @@ $this->load->view('admin/includes/headerStyle'); ?>
 </style>
 <div class="content_r">
     <div class="card">
-        <h5 class="card-header spaceB">News List
+        <h5 class="card-header spaceB">
+            <a href="<?php echo base_url('admin_dashboard') ?>">
+                <button type="button" class="btn  btn-sm btn-danger">Back</button>
+            </a>
+            News List
             <a href="<?php echo base_url('admin_news_create') ?>">
                 <button type="button" class="btn  btn-sm btn-success">Create</button>
             </a>

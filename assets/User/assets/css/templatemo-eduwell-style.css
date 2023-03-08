@@ -730,10 +730,21 @@ section.main-banner {
   margin-bottom: 40px;
 }
 
-.main-banner .header-text h2 em {
+.main-banner .header-text h2 span {
   font-style: normal;
-  color: #dc8cdb;
+  color: #dc8cdb!important;
 }
+
+/* #yazilar {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #f32170,#ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+} */
 
 .main-banner .main-button-gradient {
   position: relative;

@@ -53,8 +53,8 @@
             <!-- Logo -->
             <div class="app-brand justify-content-center">
               <a href="<?php echo base_url('index') ?>" class="app-brand-link gap-2">
-                <img style="width: 100px; height: 90px;" src="<?php echo base_url('assets/admin/'); ?>assets/img/elements/oxuaz_logo.png" alt="Logo">
-                <span class="lld">Oxu.Az</span>
+                <img class="mb-12" style="width: 100px; height: 90px;" src="<?php echo base_url('assets/admin/'); ?>assets/img/elements/oxuaz_logo.png" alt="Logo">
+                <span class="lg-12 lld">Oxu.Az</span>
               </a>
             </div>
             <!-- /Logo -->
