@@ -1,16 +1,17 @@
 <div class="col-lg-12">
           <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="https://www.facebook.com/Stimul.edu.az#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/lVUSALl"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/vusal-gasimov-ba0775229/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.github.com/lVUSALl"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/_vus_al"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.stimul.edu.az"><i class="fa fa-dribbble"></i></a></li>
           </ul>
         </div>
         <div class="col-lg-12">
-          <p class="copyright">Copyright © 2022 EduWell Co., Ltd. All Rights Reserved. 
+          <p class="copyright">Copyright © 2023 Oxu.Az Co., Ltd. Bütün Hüquqlar Qorunur. 
           
-          <br>Design: <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+          <br>Developer: <a href="#" target="_blank">lVUSALl</a></p>
         </div>
       </div>
     </div>

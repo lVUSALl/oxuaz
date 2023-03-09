@@ -1,7 +1,7 @@
 <?php
 
 // print_r("<pre>");
-// print_r($get_all_news);
+// print_r($get_all_course);
 // die;
 $this->load->view('admin/includes/headerStyle'); ?>
 <?php $this->load->view('admin/includes/leftMenu'); ?>
@@ -48,6 +48,7 @@ $this->load->view('admin/includes/headerStyle'); ?>
                             <th>Date</th>
                             <th>Category</th>
                             <th>Creator name</th>
+                            <th>Teacher name</th>
                             <th>Img</th>
                             <th>Status</th>
                             <th>Updated</th>
@@ -64,6 +65,7 @@ $this->load->view('admin/includes/headerStyle'); ?>
                                 <td><?php echo date("d-m-Y", strtotime($item['n_date'])); ?></td>
                                 <td><?php echo $item['n_category']; ?></td>
                                 <td><?php echo $item['a_name']; ?></td>
+                                <td><?php echo $item['c_teacher']; ?></td>
                                 <td>
                                     <?php if($item['n_img']){ ?>
 

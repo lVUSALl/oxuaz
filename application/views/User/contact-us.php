@@ -9,8 +9,8 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="header-text">
-            <h4>Say Hello EduWell</h4>
-            <h1>Contact Us</h1>
+            <h4>Oxu.Az-a Salam De</h4>
+            <h1>Bizimlə Əlaqə</h1>
           </div>
         </div>
       </div>
@@ -22,14 +22,10 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="section-heading">
-            <h6>More Info</h6>
-            <h4>Read More <em>About Us</em></h4>
+            <h6>Əlavə Məlumat</h6>
+            <h4><em>Bizimlə Əlaqə Üçün</em> Daha Çox Oxu </h4>
           </div>
-          <p>Trust fund nocore broklyn humblebrag mustache
-            pork kitsch, bicycle rights hexagon schlitz keytar palo is
-            santo drinking vinegar fam ramps. <br><br>Four dollar toast and
-            edison bulb vinyl, listicle hashtag pug scenester typewrit
-            er yuccie street artboard or whatever to fill place.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit sit praesentium enim vero delectus accusantium saepe explicabo<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates vel amet, omnis ad aperiam voluptatum minus aliquam deserunt quia eos praesentium.</p>
           <ul>
             <li>- Selfies you probably haven't heard of them.</li>
             <li>- Tousled cold-pressed chicharrones yuccie.</li>
@@ -42,25 +38,25 @@
             <div class="col-6">
               <div class="count-area-content">
                 <div class="count-digit">125</div>
-                <div class="count-title">Finished Projects</div>
+                <div class="count-title">Tamamlanmış İşlər</div>
               </div>
             </div>
             <div class="col-6">
               <div class="count-area-content">
                 <div class="count-digit">11</div>
-                <div class="count-title">Years Experience</div>
+                <div class="count-title">İllik Təcrübə</div>
               </div>
             </div>
             <div class="col-6">
               <div class="count-area-content">
                 <div class="count-digit">87</div>
-                <div class="count-title">Happy Clients</div>
+                <div class="count-title">Xoşbəxt Müştərilər</div>
               </div>
             </div>
             <div class="col-6">
               <div class="count-area-content">
                 <div class="count-digit">24</div>
-                <div class="count-title">Awwards Won</div>
+                <div class="count-title">Qazanılmış Hədiyyələr</div>
               </div>
             </div>
           </div>
@@ -69,30 +65,35 @@
     </div>
   </section>
 
-  <section class="contact-us">
+  <section class="contact-us" id="contact-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
           <div id="map">
-          	<!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7151.84524236698!2d-122.19494600413192!3d47.56605883252286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490695e625f8965%3A0xf99b055e76477def!2sNewcastle%20Beach%20Park%20Playground%2C%20Bellevue%2C%20WA%2098006%2C%20USA!5e0!3m2!1sen!2sth!4v1644335269264!5m2!1sen!2sth" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
+          
+            <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759.7652423137713!2d49.827561035544!3d40.385341316112054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d9bdc74118b%3A0xc8377414faa8f86b!2sSTIMUL%20Education%20%26%20Consulting!5e0!3m2!1saz!2saz!4v1678386866326!5m2!1saz!2saz" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
             <div class="row">
               <div class="col-lg-4 offset-lg-1">
                 <div class="contact-info">
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <h4>Phone</h4>
-                  <span>010-020-0340</span>
+                  <a href="tel:+994 12 497 75 37" style="text-decoration:none;color: black;">
+                    <div class="icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <h4>Telefon</h4>
+                    <span>+994 12 497 75 37</span>
+                  </a>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="contact-info">
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <h4>Mobile</h4>
-                  <span>090-080-0760</span>
+                  <a href="tel:+994 50 661 01 17" style="text-decoration:none;color: black;">
+                    <div class="icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <h4>Mobil</h4>
+                    <span>+994 50 661 01 17</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -103,8 +104,8 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
-                  <h6>Contact us</h6>
-                  <h4>Say <em>Hello</em></h4>
+                  <h6>Bizimlə Əlaqə</h6>
+                  <h4><em>Fikrini</em> Bildir</h4>
                   <p>IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
                 </div>
               </div>

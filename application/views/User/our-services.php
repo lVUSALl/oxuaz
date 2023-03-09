@@ -8,21 +8,21 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="header-text">
-            <h4>What We Do</h4>
-            <h1>Our Services</h1>
+            <h4>Biz Nə Edirik ?</h4>
+            <h1>Kurslarımız</h1>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="services">
+  <section class="services" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h6>Our Services</h6>
-            <h4>Provided <em>Services</em></h4>
+            <h6>Bizim Xidmətimiz</h6>
+            <h4>Göstərilən <em>Xidmətlər</em></h4>
           </div>
         </div>
         <div class="col-lg-12">
@@ -32,8 +32,8 @@
                 <div class="icon">
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
                 </div>
-                <h4>Useful Tricks</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
+                <h4>Faydalı Hiylələr</h4>
+                <p>Həyata və karyeranıza dair vacib "hiylələr"</p>
               </div>
             </div>
             <div class="item">
@@ -41,8 +41,8 @@
                 <div class="icon">
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-02.png" alt="">
                 </div>
-                <h4>Creative Ideas</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
+                <h4>Kreativ İdealar</h4>
+                <p>Gələcəyini düzgün planlamaq üçün sənə lazım olacaq düzgün düşüncə tərzi</p>
               </div>
             </div>
             <div class="item">
@@ -50,8 +50,8 @@
                 <div class="icon">
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-03.png" alt="">
                 </div>
-                <h4>Ready Target</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
+                <h4>Hazır Hədəf</h4>
+                <p>Sizin hədəfinizə çatmaq üçün uğura gedən yolda işıq olmaq</p>
               </div>
             </div>
             <div class="item">
@@ -59,80 +59,8 @@
                 <div class="icon">
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-04.png" alt="">
                 </div>
-                <h4>Technology</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
-                </div>
-                <h4>Useful Tricks</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-02.png" alt="">
-                </div>
-                <h4>Creative Ideas</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-03.png" alt="">
-                </div>
-                <h4>Ready Target</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-04.png" alt="">
-                </div>
-                <h4>Technology</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
-                </div>
-                <h4>Useful Tricks</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-02.png" alt="">
-                </div>
-                <h4>Creative Ideas</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-03.png" alt="">
-                </div>
-                <h4>Ready Target</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-04.png" alt="">
-                </div>
-                <h4>Technology</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
+                <h4>Texnologiya</h4>
+                <p>Arzunuzu reallaşdırma üçün istifadə olunacaq real və müasir texnologiya toplusu</p>
               </div>
             </div>
           </div>
@@ -141,7 +69,7 @@
     </div>
   </section>
 
-  <section class="simple-cta">
+  <!-- <section class="simple-cta ">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 offset-lg-1">
@@ -150,16 +78,16 @@
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <h6>Get the sale right now!</h6>
-          <h4>Up to 50% OFF For 1+ courses</h4>
-          <p>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+          <h6>Endirimi Qaçırmayın!</h6>
+          <h4>1-dən çox kurs üçün 50%-ə dək endirim</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, molestiae et nobis atque nesciunt harum corporis commodi quaerat dignissimos provident ea, ut magni asperiores nemo quasi, dolorem iste aspernatur cupiditate.</p>
           <div class="white-button">
-            <a href="contact-us.html">View Courses</a>
+            <a href="<?php echo base_url('services')?>">Kurslara Bax</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="featured-product">
     <div class="container">

@@ -29,8 +29,8 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h6>Our Services</h6>
-            <h4>Provided <em>Services</em></h4>
+            <h6>Bizim Xidmətimiz</h6>
+            <h4>Göstərilən <em>Xidmətlər</em></h4>
           </div>
         </div>
         <div class="col-lg-12">
@@ -40,8 +40,8 @@
                 <div class="icon">
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
                 </div>
-                <h4>Useful Tricks</h4>
-                <p>EduWell is the professional HTML5 template for your school or university websites.</p>
+                <h4>Faydalı Hiylələr</h4>
+                <p>Həyata və karyeranıza dair vacib "hiylələr"</p>
               </div>
             </div>
             <div class="item">
@@ -49,8 +49,8 @@
                 <div class="icon">
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-02.png" alt="">
                 </div>
-                <h4>Creative Ideas</h4>
-                <p>You can download and use this EduWell Template for your teaching and learning stuffs.</p>
+                <h4>Kreativ İdealar</h4>
+                <p>Gələcəyini düzgün planlamaq üçün sənə lazım olacaq düzgün düşüncə tərzi</p>
               </div>
             </div>
             <div class="item">
@@ -58,8 +58,8 @@
                 <div class="icon">
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-03.png" alt="">
                 </div>
-                <h4>Ready Target</h4>
-                <p>Please tell your friends about the best CSS template website that is TemplateMo.</p>
+                <h4>Hazır Hədəf</h4>
+                <p>Sizin hədəfinizə çatmaq üçün uğura gedən yolda işıq olmaq</p>
               </div>
             </div>
             <div class="item">
@@ -67,80 +67,8 @@
                 <div class="icon">
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-04.png" alt="">
                 </div>
-                <h4>Technology</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
-                </div>
-                <h4>Useful Tricks</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-02.png" alt="">
-                </div>
-                <h4>Creative Ideas</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-03.png" alt="">
-                </div>
-                <h4>Ready Target</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-04.png" alt="">
-                </div>
-                <h4>Technology</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
-                </div>
-                <h4>Useful Tricks</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-02.png" alt="">
-                </div>
-                <h4>Creative Ideas</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-03.png" alt="">
-                </div>
-                <h4>Ready Target</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-04.png" alt="">
-                </div>
-                <h4>Technology</h4>
-                <p>Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.</p>
+                <h4>Texnologiya</h4>
+                <p>Arzunuzu reallaşdırma üçün istifadə olunacaq real və müasir texnologiya toplusu</p>
               </div>
             </div>
           </div>
@@ -154,9 +82,9 @@
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
-            <h6>OUR COURSES</h6>
-            <h4>What You Can <em>Learn</em></h4>
-            <p>You just think about TemplateMo whenever you need free CSS templates for your business website</p>
+            <h6>Bizim Kurslar</h6>
+            <h4>Nə Öyrənmək <em>İstəyirsən ?</em></h4>
+            <p>Gözlərini bağla və sənin üçün ideal olan sahəni seç. Sonra isə biz səni arzularına çatdıraq !</p>
           </div>
         </div>
         <div class="col-lg-12">
@@ -265,11 +193,11 @@
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <h6>Get the sale right now!</h6>
-          <h4>Up to 50% OFF For 1+ courses</h4>
-          <p>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+          <h6>Endirimi Qaçırmayın!</h6>
+          <h4>1-dən çox kurs üçün 50%-ə dək endirim</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, molestiae et nobis atque nesciunt harum corporis commodi quaerat dignissimos provident ea, ut magni asperiores nemo quasi, dolorem iste aspernatur cupiditate.</p>
           <div class="white-button">
-            <a href="contact-us.html">View Courses</a>
+            <a href="<?php echo base_url('services')?>">Kurslara Bax</a>
           </div>
         </div>
       </div>
@@ -281,56 +209,56 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h6>Testimonials</h6>
-            <h4>What They <em>Think</em></h4>
+            <h6>Fikirlər</h6>
+            <h4>Onlar nə <em>Fikirləşir ?</em></h4>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
             <div class="item">
-              <p>“just think about TemplateMo if you need free CSS templates for your website”</p>
+              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Catherine Walk</h4>
                 <span>CEO &amp; Founder</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“think about our website first when you need free HTML templates for your website”</p>
+              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>David Martin</h4>
                 <span>CTO of Tech Company</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“just think about our website wherever you need free templates for your website”</p>
+              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Sophia Whity</h4>
                 <span>CEO and Co-Founder</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Helen Shiny</h4>
                 <span>Tech Officer</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>George Soft</h4>
                 <span>Gadget Reviewer</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Andrew Hall</h4>
                 <span>Marketing Manager</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Maxi Power</h4>
                 <span>Fashion Designer</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.”</p>
+              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Olivia Too</h4>
                 <span>Creative Designer</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
@@ -348,24 +276,28 @@
           <div id="map">
           
             <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7151.84524236698!2d-122.19494600413192!3d47.56605883252286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490695e625f8965%3A0xf99b055e76477def!2sNewcastle%20Beach%20Park%20Playground%2C%20Bellevue%2C%20WA%2098006%2C%20USA!5e0!3m2!1sen!2sth!4v1644335269264!5m2!1sen!2sth" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d759.7652423137713!2d49.827561035544!3d40.385341316112054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d9bdc74118b%3A0xc8377414faa8f86b!2sSTIMUL%20Education%20%26%20Consulting!5e0!3m2!1saz!2saz!4v1678386866326!5m2!1saz!2saz" width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
             <div class="row">
               <div class="col-lg-4 offset-lg-1">
                 <div class="contact-info">
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <h4>Phone</h4>
-                  <span>010-020-0340</span>
+                  <a href="tel:+994 12 497 75 37" style="text-decoration:none;color: black;">
+                    <div class="icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <h4>Telefon</h4>
+                    <span>+994 12 497 75 37</span>
+                  </a>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="contact-info">
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <h4>Mobile</h4>
-                  <span>090-080-0760</span>
+                  <a href="tel:+994 50 661 01 17" style="text-decoration:none;color: black;">
+                    <div class="icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <h4>Mobil</h4>
+                    <span>+994 50 661 01 17</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -376,8 +308,8 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
-                  <h6>Contact us</h6>
-                  <h4>Say <em>Hello</em></h4>
+                  <h6>Bizimlə Əlaqə</h6>
+                  <h4><em>Fikrini</em> Bildir</h4>
                   <p>IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
                 </div>
               </div>

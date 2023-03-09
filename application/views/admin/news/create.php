@@ -71,6 +71,12 @@
                     <input type="file" id="img" class="form-control" name="user_img">
                 </div>
 
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="float: left;">
+                    <br>
+                    <label for="teacher">Teacher Name</label>
+                    <input type="text" id="teacher" name="teacher" class="form-control">
+                </div>
+
                 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="float: left; margin:0px">
                     <br>    

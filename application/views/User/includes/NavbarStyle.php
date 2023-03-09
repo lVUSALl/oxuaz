@@ -12,17 +12,18 @@
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                          <li class="scroll-to-section"><a href="#services">Services</a></li>
-                          <li class="scroll-to-section"><a href="<?php echo base_url("index")?>#courses">Courses</a></li>
+                          <li class="scroll-to-section"><a href="#services">Xidmətlərimiz</a></li>
+                          <li class="scroll-to-section"><a href="<?php echo base_url("index")?>#courses">Kurslar</a></li>
                           <li class="has-sub">
-                              <a href="javascript:void(0)">Pages</a>
+                              <a href="javascript:void(0)">Səhifələr</a>
                               <ul class="sub-menu">
-                                  <li><a href="<?php echo base_url('about') ?>">About Us</a></li>
-                                  <li><a href="<?php echo base_url('services') ?>">Our Services</a></li>
-                                  <li><a href="<?php echo base_url('contact') ?>">Contact Us</a></li>
+                                  <li><a href="<?php echo base_url('about') ?>">Haqqımızda</a></li>
+                                  <li><a href="<?php echo base_url('services') ?>">Kurslarımız</a></li>
+                                  <li><a href="<?php echo base_url('teachers') ?>">Müəllimlərimiz</a></li>
+                                  <li><a href="<?php echo base_url('contact') ?>">Əlaqə</a></li>
                               </ul>
                           </li>
-                          <li class="scroll-to-section"><a href="#contact-section">Contact Us</a></li> 
+                          <li class="scroll-to-section"><a href="#contact-section">Bizimlə Əlaqə</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
