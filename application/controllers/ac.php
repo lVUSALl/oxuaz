@@ -12,11 +12,12 @@ class ac extends CI_Controller{
     }
 
     public function dashboard(){
-        $this->load->view('admin/index');
+        
         $data['get_all_course'] = $this->course->get_all_course();
         // print_r("<pre>");
         // print_r($data['get_all_course']);
         // die;
+        $this->load->view('admin/index', $data);
     }
 
     public function login_act()
@@ -69,6 +70,7 @@ class ac extends CI_Controller{
         $data['get_all_course'] = $this->course->get_all_course();
 
         $this->load->view('admin/news/news', $data);
+        
     }
 
     public function news_create()

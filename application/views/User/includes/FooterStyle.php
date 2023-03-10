@@ -21,7 +21,6 @@
   <!-- Bootstrap core JavaScript -->
     <script src="<?php echo base_url('assets/User/'); ?>vendor/jquery/jquery.min.js"></script>
     <script src="<?php echo base_url('assets/User/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <script src="<?php echo base_url('assets/User/'); ?>assets/js/isotope.min.js"></script>
     <script src="<?php echo base_url('assets/User/'); ?>assets/js/owl-carousel.js"></script>
     <script src="<?php echo base_url('assets/User/'); ?>assets/js/lightbox.js"></script>

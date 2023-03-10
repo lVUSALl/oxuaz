@@ -17,11 +17,10 @@ class manc extends CI_Controller{
         $this->load->view('user/contact-us');
     }
     public function services(){
-        $this->load->view('user/our-services');
-
         $data['get_all_course'] = $this->user_course->get_all_course();
         // print_r("<pre>");
         // print_r($data['get_all_course']);
         // die;
+        $this->load->view('user/our-services');
     }
 }
