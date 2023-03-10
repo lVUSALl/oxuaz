@@ -64,7 +64,7 @@ $this->load->view('admin/includes/headerStyle'); ?>
                                 <td><?php echo $item['n_title']; ?></td>
                                 <td><?php echo date("d-m-Y", strtotime($item['n_date'])); ?></td>
                                 <td><?php echo $item['n_category']; ?></td>
-                                <td><?php echo $item['a_name']; ?></td>
+                                <td><?php echo $_SESSION['admin_login_name'] ?></td>
                                 <td><?php echo $item['c_teacher']; ?></td>
                                 <td>
                                     <?php if($item['n_img']){ ?>

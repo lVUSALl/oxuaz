@@ -81,14 +81,12 @@ class ac extends CI_Controller{
     {
 
         $title          = $_POST['title'];
-        // $teacher          = $_POST['teacher'];
         $description    = $_POST['description'];
         $date           = $_POST['date'];
         $category       = $_POST['category'];
         $status         = $_POST['status'];
-        // print_r("<pre>");
-        // print_r($teacher);
-        // die;
+        $teacher          = $_POST['teacher'];
+        
 
         if (!empty($title) && !empty($description) && !empty($date) && !empty($category) && !empty($status) && !empty($teacher)) {
 
@@ -111,7 +109,7 @@ class ac extends CI_Controller{
                 $data = [
                     'n_title'       => $title,
                     'n_description' => $description,
-                    // 'c_teacher'     => $teacher
+                    'c_teacher'     => $teacher,
                     // 'url'           => $title."-".md5($description)
                     'n_date'        => $date,
                     'n_category'    => $category,
@@ -121,6 +119,10 @@ class ac extends CI_Controller{
                     'n_creator_id'  => $_SESSION['admin_login_id'],
                     'n_create_date' => date("Y-m-d H:i:s")
                 ];
+
+                // print_r("<pre>");
+                // print_r($data);
+                // die;
                 $data = $this->security->xss_clean($data);
 
                 // insert to db code
