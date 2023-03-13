@@ -7,25 +7,31 @@
 
 <?php foreach($get_all_course as $item){?>
   <section class="courses1">
-    <div class="container1 col-lg-4">
-      <h2>Masterclass</h2>
-      <p>Enrol in a masterclass and master the bording fundamentals<br>that will make you a better musician.</p>
+    <div class="container1 col-lg-2">
+
       <div class="masterclass">
-        <article class="card-masterclass">
+        <article class="card-masterclass col-lg-3">
           <div class="img-mastercover">
-            <img src="<?php echo base_url('uploads/news/'.$item['n_img'])?>" width="100%" height="400px" style="object-fit: cover;" alt="Course Image">
+            <img src="<?php echo base_url('uploads/news/'.$item['n_img'])?>" width="100%" height="225px" style="object-fit: cover;" alt="Course Image">
           </div>
-          <div class="card-text-area">
+          <div class="card-text-area col-lg-4">
             <div class="card-info-top" style="display: flex; justify-content: space-between;">
-              <p class="students"><?php echo $item['n_category']?></p>
-              <p class="length">1h10m</p>
+              <p class="col-lg-3"><?php echo $item['n_category']?></p>
+              <p class="col-lg-3"><?php echo $item['c_time']?></p>
             </div>
-            <div class="card-info-mid">
+            <div class="card-info-mid wrappers">
               <h3><?php echo $item['n_title']?></h3>
+              <h3 class="shorten"><?php echo $item['n_description']?>
+              <br>
+              <br>
+                <a href="<?php echo base_url('admin_news_detail/'.$item['n_id'])?>">
+                  <button class="lookbtn">Davamına Bax</button>
+                </a>
+              </h3>
             </div>
-            <div class="card-info-bottom">
-              <p class="instructeur"><?php echo $item['c_teacher']?></p>
-              <p class="pricing">Paylaşdı - <?php echo $item['a_name']?></p>
+            <div class="card-info-bottom col-lg-12">
+              <p class="col-lg-12">Müəllim : <?php echo $item['c_teacher']?></p>
+              <!-- <p class="col-lg-6">Paylaşdı : <?php echo $item['a_name']?></p> -->
             </div>
           </div>
         </article>

@@ -1,6 +1,4 @@
-
-  
-  h2 {
+h2 {
 	font-size: 50px;
 	font-weight: 700;
 	margin: 0;
@@ -31,9 +29,11 @@
   /*  Course Section  */
   
   .courses1 {
-	background-color: #292929;
-	height: 150vh;
+	/* background-color: #292929; */
+	height: 80vh;
 	display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
   }
   
   .container1 {
@@ -76,7 +76,7 @@
   .masterclass {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 50px;
+	/* margin-top: 50px; */
   }
   
   .card-masterclass {
@@ -84,17 +84,17 @@
 	width: 400px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	/* justify-content: center;
+	align-items: center; */
   }
   
   /*  Card Text  */
   .card-text-area {
 	width: 400px;
-	background-color: #1e1e1e;
+	background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
 	padding: 15px;
 	border: 2px solid #313131;
-	margin-bottom: 75px;
+	/* margin-bottom: 75px; */
 	border-radius: 0 0 10px 10px;
   }
   
@@ -110,7 +110,8 @@
   .card-info-bottom {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 40px;
+	color: white;
+	/* padding-top: 40px; */
   }
   
   .students,
@@ -140,4 +141,24 @@
   .btn-secondary:hover {
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 	border: 2px solid #1e1e1e;
+  }
+
+
+  .wrappers {
+	padding: 20px;
+  	/* background: #eaeaea; */
+  	max-width: 400px;
+ 	/* margin: 50px auto; */
+  }
+
+  .shorten {
+	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis;
+  	max-width: 400px;
+  }
+
+  .lookbtn {
+	color: white;
+	border: 2px solid;
   }

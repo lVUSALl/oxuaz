@@ -17,7 +17,7 @@
                       <p class="mb-4">
                         <i class="fas fa-quote-left fa-2x" style="color: #696CFF;"></i>
                         <blockquote class="blockquote pb-2">
-                          <p>Həyatda hər hansı bir yerə çatacaqsınızsa, bir çox kitab oxumalısınız.</p>
+                          <p style="color: black;">Həyatda hər hansı bir yerə çatacaqsınızsa, bir çox kitab oxumalısınız.</p>
                         </blockquote>
                         <figcaption class="blockquote-footer mb-0">Roald Dahl</figcaption>
                       </p>

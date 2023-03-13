@@ -33,41 +33,41 @@
 
             <form action="<?php echo base_url('admin_news_create_act'); ?>" method="post" enctype="multipart/form-data">
                 <label for="title"><b>Title</b></label>
-                <p><?php echo $single_news['n_title']; ?></p>
+                <p style="color: black;"><?php echo $single_news['n_title']; ?></p>
                 <br>
 
                 <label for="descr"><b>Description</b></label>
-                <p><?php echo $single_news['n_description']; ?></p>
+                <p style="color: black;"><?php echo $single_news['n_description']; ?></p>
 
 
                 <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="float: left;">
                     <label for="date"><b>Date</b></label>
-                    <p><?php echo $single_news['n_date']; ?></p>
+                    <p style="color: black;"><?php echo $single_news['n_date']; ?></p>
                 </div>
 
 
 
                 <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="float: left; margin:0px 10px">
                     <label for="cate"><b>Category</b></label>
-                    <p><?php echo $single_news['n_category']; ?></p>
+                    <p style="color: black;"><?php echo $single_news['n_category']; ?></p>
                 </div>
 
 
                 <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="float: left; margin:0px 10px">
                     <label for="status"><b>Status</b></label>
-                    <p><?php echo $single_news['n_status']; ?></p>
+                    <p style="color: black;"><?php echo $single_news['n_status']; ?></p>
                 </div>
 
                 <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="float: left; margin:0px 10px">
                     <label for="status"><b>Creator</b></label>
-                    <p><?php echo $single_news['a_name']; ?></p>
+                    <p style="color: black;"><?php echo $single_news['a_name']; ?></p>
                 </div>
 
                 <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="float: left; margin:0px 10px">
 
                     <?php if ($single_news['n_updater_id'] != 0) { ?>
                         <label for="status"><b>Updater</b></label>
-                        <p><?php echo $single_news['n_updater_id']; ?></p>
+                        <p ><?php echo $single_news['n_updater_id']; ?></p>
                     <?php }else{ ?>
                         <label for="status"><b>Updater</b></label>
                         <p>-</p>
@@ -75,11 +75,23 @@
 
                 </div>
 
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="float: left; margin:0px 10px">
+                    <label for="status"><b>Teacher</b></label>
+                    <p style="color: black;"><?php echo $single_news['c_teacher']; ?></p>
+                </div>
+
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="float: left; margin:0px 10px">
+                    <label for="status"><b>Time</b></label>
+                    <p style="color: black;"><?php echo $single_news['c_time']; ?></p>
+                </div>
+
+                
+
 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="float: left; margin:0px">
                     <label for="img"><b>File</b></label>
                     <br>
-                    <img width="150" src="<?php echo base_url('uploads/news/' . $single_news['n_img']); ?>" alt="">
+                    <img width="100%" height="100%" src="<?php echo base_url('uploads/news/' . $single_news['n_img']); ?>" alt="">
                 </div>
 
 

@@ -83,17 +83,29 @@
                     </select>
                 </div>
 
+                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2" style="float: left; margin:0px">
+                    <label for="teacher">Teacher</label>
+                    <input type="text" id="teacher" name="teacher" class="form-control" value="<?php echo $get_single_data['c_teacher']; ?>">
+                    <br>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2" style="float: left; margin:0px">
+                    <label for="time">Time</label>
+                    <input type="text" id="time" name="time" class="form-control" value="<?php echo $get_single_data['c_time']; ?>">
+                    
+                </div>
 
                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="float: left; margin:0px">
                     <label for="img">IMG</label>
                     <input type="file" id="img" class="form-control" name="user_img">
                 </div>
-
+                
                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="float: left; margin:0px">
                     <br>
                     <?php if ($get_single_data['n_img']) { ?>
                         <?php if ($get_single_data['n_file_ext'] == ".pdf") { ?>
-                            <img width="100%" style="object-fit: cover;" src="https://media.istockphoto.com/vectors/icon-major-file-format-vector-icon-illustration-vector-id1298834280?k=20&m=1298834280&s=612x612&w=0&h=SxEbyHKi18H1XpPpKKzoppWgMM3x0tc3veN5e6wl7Y8=" alt="">
+                            <img width="100%" height="100%" style="object-fit: cover;" src="https://media.istockphoto.com/vectors/icon-major-file-format-vector-icon-illustration-vector-id1298834280?k=20&m=1298834280&s=612x612&w=0&h=SxEbyHKi18H1XpPpKKzoppWgMM3x0tc3veN5e6wl7Y8=" alt="">
 
                         <?php } else { ?>
                             <img width="100%" style="object-fit: cover;" src="<?php echo base_url('uploads/news/' . $get_single_data['n_img']); ?>" alt="">

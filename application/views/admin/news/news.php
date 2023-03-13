@@ -49,6 +49,7 @@ $this->load->view('admin/includes/headerStyle'); ?>
                             <th>Category</th>
                             <th>Creator name</th>
                             <th>Teacher name</th>
+                            <th>Time</th>
                             <th>Img</th>
                             <th>Status</th>
                             <th>Updated</th>
@@ -66,6 +67,7 @@ $this->load->view('admin/includes/headerStyle'); ?>
                                 <td><?php echo $item['n_category']; ?></td>
                                 <td><?php echo $_SESSION['admin_login_name'] ?></td>
                                 <td><?php echo $item['c_teacher']; ?></td>
+                                <td><?php echo $item['c_time']; ?></td>
                                 <td>
                                     <?php if($item['n_img']){ ?>
 

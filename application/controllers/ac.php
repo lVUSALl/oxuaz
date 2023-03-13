@@ -87,10 +87,11 @@ class ac extends CI_Controller{
         $date           = $_POST['date'];
         $category       = $_POST['category'];
         $status         = $_POST['status'];
-        $teacher          = $_POST['teacher'];
+        $teacher        = $_POST['teacher'];
+        $time           = $_POST['time'];
         
 
-        if (!empty($title) && !empty($description) && !empty($date) && !empty($category) && !empty($status) && !empty($teacher)) {
+        if (!empty($title) && !empty($description) && !empty($date) && !empty($category) && !empty($status) && !empty($teacher) && !empty($time)) {
 
 
             $config['upload_path']          = './uploads/news/';
@@ -112,6 +113,7 @@ class ac extends CI_Controller{
                     'n_title'       => $title,
                     'n_description' => $description,
                     'c_teacher'     => $teacher,
+                    'c_time'        => $time,
                     // 'url'           => $title."-".md5($description)
                     'n_date'        => $date,
                     'n_category'    => $category,
