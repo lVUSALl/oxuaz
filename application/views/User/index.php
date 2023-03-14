@@ -96,7 +96,7 @@
                     <div class="active gradient-border"><span>Web Development</span></div>
                     <div class="gradient-border"><span>Graphic Design</span></div>
                     <div class="gradient-border"><span>Web Design</span></div>
-                    <div class="gradient-border"><span>WordPress</span></div>
+                    <div class="gradient-border"><span>Language</span></div>
                   </div>
                 </div>
                 <div class="col-lg-9">
@@ -104,37 +104,34 @@
                     <li class="active">
                       <div>
                         <div class="left-image">
-                          <img src="<?php echo base_url('assets/User/'); ?>assets/images/courses-01.jpg" alt="">
-                          <div class="price"><h6>$128</h6></div>
+                          <img src="<?php echo base_url('assets/User/'); ?>assets/images/courses-02.jpg" alt="">
                         </div>
                         <div class="right-content">
                           <h4>Web Development</h4>
-                          <p>Did you know that you can visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS website</a> for latest listing of HTML templates and a variety of useful templates. 
-                          <br><br>You just need to go and visit that website right now. IF you have any suggestion or comment about this template, you can feel free to go to contact page for our email address.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsa porro quis, totam modi in, provident quae quisquam odio, quasi atque. Debitis ex qui voluptatum ea perferendis iste voluptatem assumenda!</p>
                           <span>36 Hours</span>
-                          <span>4 Weeks</span>
-                          <span class="last-span">3 Certificates</span>
-                          <div class="text-button">
+                          <span>4 Month</span>
+                          <span class="last-span">1-2 Certificate</span>
+                          <!-- <div class="text-button">
                             <a href="contact-us.html">Subscribe Course</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </li>
                     <li>
                       <div>
                         <div class="left-image">
-                          <img src="<?php echo base_url('assets/User/'); ?>assets/images/courses-02.jpg" alt="">
-                          <div class="price"><h6>$156</h6></div>
+                          <img src="<?php echo base_url('assets/User/'); ?>assets/images/courses-01.jpg" alt="">
                         </div>
                         <div class="right-content">
                           <h4>Creative Graphic Design</h4>
-                          <p>You are not allowed to redistribute this template ZIP file on any other website without a permission from us.<br><br>There are some unethical people on this world copied and reposted our templates without any permission from us. Their Karma will hit them really hard. Yeah!</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo natus veritatis iusto est a optio minus nostrum numquam aliquam cupiditate veniam aut, tempora error dicta accusantium voluptatibus sapiente temporibus!</p>
                           <span>48 Hours</span>
-                          <span>6 Weeks</span>
+                          <span>6 Month</span>
                           <span class="last-span">1 Certificate</span>
-                          <div class="text-button">
+                          <!-- <div class="text-button">
                             <a href="contact-us.html">Subscribe Course</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </li>
@@ -142,17 +139,16 @@
                       <div>
                         <div class="left-image">
                           <img src="<?php echo base_url('assets/User/'); ?>assets/images/courses-03.jpg" alt="">
-                          <div class="price"><h6>$184</h6></div>
                         </div>
                         <div class="right-content">
                           <h4>Web Design</h4>
-                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus enim ad corporis adipisci aliquam ipsam numquam vel aspernatur veritatis pariatur id a, quos officia odit! Rerum sed commodi dolor.</p>
                           <span>28 Hours</span>
-                          <span>4 Weeks</span>
+                          <span>4 Month</span>
                           <span class="last-span">1 Certificate</span>
-                          <div class="text-button">
+                          <!-- <div class="text-button">
                             <a href="contact-us.html">Subscribe Course</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </li>
@@ -160,17 +156,16 @@
                       <div>
                         <div class="left-image">
                           <img src="<?php echo base_url('assets/User/'); ?>assets/images/courses-04.jpg" alt="">
-                          <div class="price"><h6>$76</h6></div>
                         </div>
                         <div class="right-content">
-                          <h4>WordPress Introduction</h4>
-                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                          <h4>Language Introduction</h4>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum mollitia. Cum possimus non optio placeat, necessitatibus corporis officia error tenetur fugiat eius incidunt dolorem officiis ullam quo, eos nihil!</p>
                           <span>48 Hours</span>
-                          <span>4 Weeks</span>
-                          <span class="last-span">2 Certificates</span>
-                          <div class="text-button">
+                          <span>4 Month</span>
+                          <span class="last-span">1 Certificate</span>
+                          <!-- <div class="text-button">
                             <a href="contact-us.html">Subscribe Course</a>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                       </li>

@@ -21,6 +21,6 @@ class manc extends CI_Controller{
         // print_r("<pre>");
         // print_r($data['get_all_course']);
         // die;
-        $this->load->view('user/our-services');
+        $this->load->view('user/our-services', $data);
     }
 }

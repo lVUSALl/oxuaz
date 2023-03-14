@@ -43,5 +43,6 @@
               <i class="col-lg-12 tf-icons bx bx-book-open" style="color: #696CFF; font-size: 50px!important; display: flex; justify-content: center; align-items: center;"></i><br>
               <div class="col-lg-4" style="font-size:42px; color: #696CFF; display: flex; justify-content: center; align-items: center; width: 100%;">Bütün Kurslar :</div>
           </div>
+          <div id="result"></div>
           
 </div>

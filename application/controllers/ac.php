@@ -142,7 +142,8 @@ class ac extends CI_Controller{
                 $data = [
                     'n_title'       => $title,
                     'n_description' => $description,
-                    // 'c_teacher'     => $teacher
+                    'c_teacher'     => $teacher,
+                    'c_time'        => $time,
                     'n_date'        => $date,
                     'n_category'    => $category,
                     'n_status'      => $status,
@@ -281,6 +282,7 @@ class ac extends CI_Controller{
         redirect($_SERVER['HTTP_REFERER']);
         
     }
+
     
 
 }

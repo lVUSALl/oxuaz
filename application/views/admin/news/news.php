@@ -19,7 +19,7 @@ $this->load->view('admin/includes/headerStyle'); ?>
             <a href="<?php echo base_url('admin_dashboard') ?>">
                 <button type="button" class="btn  btn-sm btn-danger">Back</button>
             </a>
-            News List
+            Course Enumeration
             <a href="<?php echo base_url('admin_news_create') ?>">
                 <button type="button" class="btn  btn-sm btn-success">Create</button>
             </a>

@@ -32,12 +32,14 @@ h2 {
 	/* background-color: #292929; */
 	height: 80vh;
 	display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     text-align: center;
+	float: left;
+	padding: 1.8px;
   }
   
   .container1 {
-	width: 960px;
+	width: 420px;
 	margin: auto;
   }
   .container1 > h2,
@@ -46,7 +48,7 @@ h2 {
   }
   
   .img-mastercover {
-	width: 400px;
+	width: 420px;
 	height: 222.34px;
 	margin: 0;
 	padding: 0;
@@ -77,11 +79,12 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	/* margin-top: 50px; */
+	width: 420px;
   }
   
   .card-masterclass {
 	flex: 1 1 400px;
-	width: 400px;
+	width: 420px;
 	display: flex;
 	flex-direction: column;
 	/* justify-content: center;
@@ -90,7 +93,7 @@ h2 {
   
   /*  Card Text  */
   .card-text-area {
-	width: 400px;
+	width: 420px;
 	background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
 	padding: 15px;
 	border: 2px solid #313131;

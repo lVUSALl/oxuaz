@@ -6,7 +6,7 @@
 <?php $this->load->view('admin/includes/core_content'); ?>
 
 <?php foreach($get_all_course as $item){?>
-  <section class="courses1">
+  <section class="courses1" id="course-items">
     <div class="container1 col-lg-2">
 
       <div class="masterclass">
