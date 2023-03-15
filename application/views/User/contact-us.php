@@ -1,7 +1,7 @@
 <?php $this->load->view('User/includes/HeaderStyle') ?>
 
   <!-- ***** Header Area Start ***** -->
-  <?php $this->load->view('User/includes/NavbarStyle') ?>
+  <?php $this->load->view('User/includes/NbarStyle') ?>
   <!-- ***** Header Area End ***** -->
 
   <section class="page-heading">
@@ -25,7 +25,7 @@
             <h6>Əlavə Məlumat</h6>
             <h4><em>Bizimlə Əlaqə Üçün</em> Daha Çox Oxu </h4>
           </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit sit praesentium enim vero delectus accusantium saepe explicabo<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates vel amet, omnis ad aperiam voluptatum minus aliquam deserunt quia eos praesentium.</p>
+          <p style="color: gray;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit sit praesentium enim vero delectus accusantium saepe explicabo<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates vel amet, omnis ad aperiam voluptatum minus aliquam deserunt quia eos praesentium.</p>
           <ul>
             <li>- Selfies you probably haven't heard of them.</li>
             <li>- Tousled cold-pressed chicharrones yuccie.</li>
@@ -106,7 +106,7 @@
                 <div class="section-heading">
                   <h6>Bizimlə Əlaqə</h6>
                   <h4><em>Fikrini</em> Bildir</h4>
-                  <p>IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
+                  <p style="color: gray;">IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
                 </div>
               </div>
               <div class="col-lg-12">

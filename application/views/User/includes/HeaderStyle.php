@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/user/'); ?>assets/css/templatemo-eduwell-style.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/user/'); ?>assets/css/owl.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/user/'); ?>assets/css/lightbox.css">
+    <link rel="stylesheet" href="<?php echo base_url('assets/user/'); ?>assets/css/coursecarduser.css">
     
     <link rel="icon" type="image/x-icon" href="<?php echo base_url("assets/admin/"); ?>assets/img/favicon/favicon.ico" />
   </head>

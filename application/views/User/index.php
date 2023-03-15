@@ -8,7 +8,7 @@
         <div class="col-lg-6 align-self-center">
           <div class="header-text">
             <h5>Bizim Kursa Xoş Gəldin</h5>
-            <h2><span id="yazilar" class="auto-type"></span><br> Öyrənmək üçün ən ideal məkan </h2>
+            <h2 style="background: transparent;"><span id="yazilar" class="auto-type"></span><br> Öyrənmək üçün ən ideal məkan </h2>
             <div class="main-button-gradient">
               <div class="scroll-to-section"><a href="#contact-section">Bizimlə Öyrən!</a></div>
             </div>
@@ -41,7 +41,7 @@
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
                 </div>
                 <h4>Faydalı Hiylələr</h4>
-                <p>Həyata və karyeranıza dair vacib "hiylələr"</p>
+                <p style="color: gray;">Həyata və karyeranıza dair vacib "hiylələr"</p>
               </div>
             </div>
             <div class="item">
@@ -50,7 +50,7 @@
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-02.png" alt="">
                 </div>
                 <h4>Kreativ İdealar</h4>
-                <p>Gələcəyini düzgün planlamaq üçün sənə lazım olacaq düzgün düşüncə tərzi</p>
+                <p style="color: gray;">Gələcəyini düzgün planlamaq üçün sənə lazım olacaq düzgün düşüncə tərzi</p>
               </div>
             </div>
             <div class="item">
@@ -59,7 +59,7 @@
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-03.png" alt="">
                 </div>
                 <h4>Hazır Hədəf</h4>
-                <p>Sizin hədəfinizə çatmaq üçün uğura gedən yolda işıq olmaq</p>
+                <p style="color: gray;">Sizin hədəfinizə çatmaq üçün uğura gedən yolda işıq olmaq</p>
               </div>
             </div>
             <div class="item">
@@ -68,7 +68,7 @@
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-04.png" alt="">
                 </div>
                 <h4>Texnologiya</h4>
-                <p>Arzunuzu reallaşdırma üçün istifadə olunacaq real və müasir texnologiya toplusu</p>
+                <p style="color: gray;">Arzunuzu reallaşdırma üçün istifadə olunacaq real və müasir texnologiya toplusu</p>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@
           <div class="section-heading">
             <h6>Bizim Kurslar</h6>
             <h4>Nə Öyrənmək <em>İstəyirsən ?</em></h4>
-            <p>Gözlərini bağla və sənin üçün ideal olan sahəni seç. Sonra isə biz səni arzularına çatdıraq !</p>
+            <p style="color: gray;">Gözlərini bağla və sənin üçün ideal olan sahəni seç. Sonra isə biz səni arzularına çatdıraq !</p>
           </div>
         </div>
         <div class="col-lg-12">
@@ -108,7 +108,7 @@
                         </div>
                         <div class="right-content">
                           <h4>Web Development</h4>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsa porro quis, totam modi in, provident quae quisquam odio, quasi atque. Debitis ex qui voluptatum ea perferendis iste voluptatem assumenda!</p>
+                          <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsa porro quis, totam modi in, provident quae quisquam odio, quasi atque. Debitis ex qui voluptatum ea perferendis iste voluptatem assumenda!</p>
                           <span>36 Hours</span>
                           <span>4 Month</span>
                           <span class="last-span">1-2 Certificate</span>
@@ -125,7 +125,7 @@
                         </div>
                         <div class="right-content">
                           <h4>Creative Graphic Design</h4>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo natus veritatis iusto est a optio minus nostrum numquam aliquam cupiditate veniam aut, tempora error dicta accusantium voluptatibus sapiente temporibus!</p>
+                          <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo natus veritatis iusto est a optio minus nostrum numquam aliquam cupiditate veniam aut, tempora error dicta accusantium voluptatibus sapiente temporibus!</p>
                           <span>48 Hours</span>
                           <span>6 Month</span>
                           <span class="last-span">1 Certificate</span>
@@ -142,7 +142,7 @@
                         </div>
                         <div class="right-content">
                           <h4>Web Design</h4>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus enim ad corporis adipisci aliquam ipsam numquam vel aspernatur veritatis pariatur id a, quos officia odit! Rerum sed commodi dolor.</p>
+                          <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus enim ad corporis adipisci aliquam ipsam numquam vel aspernatur veritatis pariatur id a, quos officia odit! Rerum sed commodi dolor.</p>
                           <span>28 Hours</span>
                           <span>4 Month</span>
                           <span class="last-span">1 Certificate</span>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="right-content">
                           <h4>Language Introduction</h4>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum mollitia. Cum possimus non optio placeat, necessitatibus corporis officia error tenetur fugiat eius incidunt dolorem officiis ullam quo, eos nihil!</p>
+                          <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum mollitia. Cum possimus non optio placeat, necessitatibus corporis officia error tenetur fugiat eius incidunt dolorem officiis ullam quo, eos nihil!</p>
                           <span>48 Hours</span>
                           <span>4 Month</span>
                           <span class="last-span">1 Certificate</span>
@@ -211,49 +211,49 @@
         <div class="col-lg-12">
           <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
+              <p style="color: gray;">“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Catherine Walk</h4>
                 <span>CEO &amp; Founder</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
+              <p style="color: gray;">“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>David Martin</h4>
                 <span>CTO of Tech Company</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
+              <p style="color: gray;">“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Sophia Whity</h4>
                 <span>CEO and Co-Founder</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
+              <p style="color: gray;">“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Helen Shiny</h4>
                 <span>Tech Officer</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
+              <p style="color: gray;">“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>George Soft</h4>
                 <span>Gadget Reviewer</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
+              <p style="color: gray;">“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Andrew Hall</h4>
                 <span>Marketing Manager</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
+              <p style="color: gray;">“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Maxi Power</h4>
                 <span>Fashion Designer</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
             </div>
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
+              <p style="color: gray;">“Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi earum nesciunt qui ad commodi eos, similique est cupiditate maxime molestias aut pariatur vitae provident rerum reprehenderit iusto perferendis inventore eligendi!”</p>
                 <h4>Olivia Too</h4>
                 <span>Creative Designer</span>
                 <img src="<?php echo base_url('assets/User/'); ?>assets/images/quote.png" alt="">
@@ -305,7 +305,7 @@
                 <div class="section-heading">
                   <h6>Bizimlə Əlaqə</h6>
                   <h4><em>Fikrini</em> Bildir</h4>
-                  <p>IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
+                  <p style="color: gray;">IF you need a working contact form by PHP script, please visit TemplateMo's contact page for more info.</p>
                 </div>
               </div>
               <div class="col-lg-12">

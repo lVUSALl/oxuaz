@@ -1,6 +1,6 @@
 <?php $this->load->view('User/includes/HeaderStyle') ?>
   <!-- ***** Header Area Start ***** -->
-  <?php $this->load->view('User/includes/NavbarStyle') ?>
+  <?php $this->load->view('User/includes/NbarStyle') ?>
   <!-- ***** Header Area End ***** -->
 
   <section class="page-heading">
@@ -16,7 +16,45 @@
     </div>
   </section>
 
-  <section class="services" id="services">
+  <div class="col-lg-12" style="width: 100%; float: left; display: grid; grid-template-columns: auto auto auto;">
+  <?php foreach($get_all_course as $item){?>
+  <section class="courses1" id="course-items">
+    <div class="container1 col-lg-12">
+
+      <div class="masterclass">
+        <article class="card-masterclass col-lg-3">
+          <div class="img-mastercover">
+            <img src="<?php echo base_url('uploads/news/'.$item['n_img'])?>" width="100%" height="225px" style="object-fit: cover;" alt="Course Image">
+          </div>
+          <div class="card-text-area col-lg-4">
+            <div class="card-info-top" style="display: flex; justify-content: space-between;">
+              <p class="col-lg-3"><?php echo $item['n_category']?></p>
+              <p class="col-lg-3"><?php echo $item['c_time']?></p>
+            </div>
+            <div class="card-info-mid wrappers">
+              <h3><?php echo $item['n_title']?></h3>
+              <h3 class="shorten"><?php echo $item['n_description']?>
+              <br>
+              <br>
+                <a href="<?php echo base_url('admin_news_detail/'.$item['n_id'])?>">
+                  <button class="lookbtn">Davamına Bax</button>
+                </a>
+              </h3>
+            </div>
+            <div class="card-info-bottom col-lg-12">
+              <p class="col-lg-12">Müəllim : <?php echo $item['c_teacher']?></p>
+              <!-- <p class="col-lg-6">Paylaşdı : <?php echo $item['a_name']?></p> -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <?php } ?>
+  </div>
+
+    <div>
+      <section class="services" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -30,37 +68,37 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
+                  <img src="<?php echo base_url('assets/user/'); ?>assets/images/service-icon-01.png" alt="">
                 </div>
                 <h4>Faydalı Hiylələr</h4>
-                <p>Həyata və karyeranıza dair vacib "hiylələr"</p>
+                <p style="color: gray;">Həyata və karyeranıza dair vacib "hiylələr"</p>
               </div>
             </div>
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-02.png" alt="">
+                  <img src="<?php echo base_url('assets/user/'); ?>assets/images/service-icon-02.png" alt="">
                 </div>
                 <h4>Kreativ İdealar</h4>
-                <p>Gələcəyini düzgün planlamaq üçün sənə lazım olacaq düzgün düşüncə tərzi</p>
+                <p style="color: gray;">Gələcəyini düzgün planlamaq üçün sənə lazım olacaq düzgün düşüncə tərzi</p>
               </div>
             </div>
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-03.png" alt="">
+                  <img src="<?php echo base_url('assets/user/'); ?>assets/images/service-icon-03.png" alt="">
                 </div>
                 <h4>Hazır Hədəf</h4>
-                <p>Sizin hədəfinizə çatmaq üçün uğura gedən yolda işıq olmaq</p>
+                <p style="color: gray;">Sizin hədəfinizə çatmaq üçün uğura gedən yolda işıq olmaq</p>
               </div>
             </div>
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-04.png" alt="">
+                  <img src="<?php echo base_url('assets/user/'); ?>assets/images/service-icon-04.png" alt="">
                 </div>
                 <h4>Texnologiya</h4>
-                <p>Arzunuzu reallaşdırma üçün istifadə olunacaq real və müasir texnologiya toplusu</p>
+                <p style="color: gray;">Arzunuzu reallaşdırma üçün istifadə olunacaq real və müasir texnologiya toplusu</p>
               </div>
             </div>
           </div>
@@ -68,7 +106,7 @@
       </div>
     </div>
   </section>
-
+    </div>
   <!-- <section class="simple-cta ">
     <div class="container">
       <div class="row">
@@ -106,7 +144,7 @@
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
                 </div>
                 <h4>Best Strategy</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
+                <p style="color: gray;">Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
               </div>
             </div>
             <div class="col-lg-12">
@@ -115,7 +153,7 @@
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
                 </div>
                 <h4>Best Strategy</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
+                <p style="color: gray;">Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
               </div>
             </div>
           </div>
@@ -133,7 +171,7 @@
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
                 </div>
                 <h4>Best Strategy</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
+                <p style="color: gray;">Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
               </div>
             </div>
             <div class="col-lg-12">
@@ -142,7 +180,7 @@
                   <img src="<?php echo base_url('assets/User/'); ?>assets/images/service-icon-01.png" alt="">
                 </div>
                 <h4>Best Strategy</h4>
-                <p>Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
+                <p style="color: gray;">Food & truck tumeric taxidermy hoodie chiasore bitters retroed gentrify street portland.</p>
               </div>
             </div>
           </div>
@@ -160,7 +198,7 @@
               <h6>Our Office</h6>
               <h4>Get closer to <em>EduWell</em></h4>
             </div>
-            <p>Trust fund nocore broklyn humblebrag mustache
+            <p style="color: gray;">Trust fund nocore broklyn humblebrag mustache
               pork kitsch, bicycle rights hexagon schlitz keytar palo is
               santo drinking vinegar fam ramps. <br><br>Four dollar toast and
               edison bulb vinyl, listicle hashtag pug scenester typewrit

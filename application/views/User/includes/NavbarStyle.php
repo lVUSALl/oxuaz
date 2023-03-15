@@ -19,7 +19,6 @@
                               <ul class="sub-menu">
                                   <li><a href="<?php echo base_url('about') ?>">Haqqımızda</a></li>
                                   <li><a href="<?php echo base_url('services') ?>">Kurslarımız</a></li>
-                                  <li><a href="<?php echo base_url('teachers') ?>">Müəllimlərimiz</a></li>
                                   <li><a href="<?php echo base_url('contact') ?>">Əlaqə</a></li>
                               </ul>
                           </li>

@@ -1,7 +1,7 @@
 <?php $this->load->view('User/includes/HeaderStyle') ?>
 
   <!-- ***** Header Area Start ***** -->
-<?php $this->load->view('User/includes/NavbarStyle') ?>
+<?php $this->load->view('User/includes/NbarStyle') ?>
   <!-- ***** Header Area End ***** -->
 
   <section class="page-heading">
