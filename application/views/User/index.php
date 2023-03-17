@@ -96,7 +96,7 @@
                     <div class="active gradient-border"><span>Web Development</span></div>
                     <div class="gradient-border"><span>Graphic Design</span></div>
                     <div class="gradient-border"><span>Web Design</span></div>
-                    <div class="gradient-border"><span>Language</span></div>
+                    <div class="gradient-border"><a style="text-decoration: none; color: black;" href="<?php echo base_url('services'); ?>">Hamısına Bax</a></div>
                   </div>
                 </div>
                 <div class="col-lg-9">
@@ -154,19 +154,8 @@
                     </li>
                     <li>
                       <div>
-                        <div class="left-image">
-                          <img src="<?php echo base_url('assets/User/'); ?>assets/images/courses-04.jpg" alt="">
-                        </div>
-                        <div class="right-content">
-                          <h4>Language Introduction</h4>
-                          <p style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum mollitia. Cum possimus non optio placeat, necessitatibus corporis officia error tenetur fugiat eius incidunt dolorem officiis ullam quo, eos nihil!</p>
-                          <span>48 Hours</span>
-                          <span>4 Month</span>
-                          <span class="last-span">1 Certificate</span>
-                          <!-- <div class="text-button">
-                            <a href="contact-us.html">Subscribe Course</a>
-                          </div> -->
-                        </div>
+                        <div class="left-image"></div>
+                        <div class="right-content"></div>
                       </div>
                       </li>
                     </ul>
@@ -267,7 +256,7 @@
   <section class="contact-us" id="contact-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div id="map">
           
             <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
@@ -299,7 +288,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <form id="contact" action="" method="post">
+          <!-- <form id="contact" action="" method="post">
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
@@ -310,17 +299,22 @@
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Full Name" autocomplete="on" required>
+                  <input type="name" name="fname" placeholder="Full Name" autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                  <input type="text" name="femail" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  <input type="text" name="fsubject" pattern="[^ @]*@[^ @]*" placeholder="Your Title" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <textarea name="fmessage" placeholder="Your Message" ></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -329,6 +323,6 @@
                 </fieldset>
               </div>
             </div>
-          </form>
+          </form> -->
         </div>
         <?php $this->load->view('User/includes/FooterStyle'); ?>

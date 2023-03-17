@@ -56,6 +56,8 @@ $route['index']     = 'manc/index';
 $route['about']     = 'manc/about';
 $route['contact']   = 'manc/contact';
 $route['services']  = 'manc/services';
+$route['course_detail/(.*)']  = 'manc/single_course/$1';
+// $route['course_detail/(.*)']  = 'manc/udetail/$1';
 
 // AdminSide
 
