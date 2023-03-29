@@ -17,6 +17,7 @@
           <div class="card-text-area col-lg-4">
             <div class="card-info-top" style="display: flex; justify-content: space-between;">
               <p class="col-lg-3"><?php echo $item['n_category']?></p>
+              <p class="col-lg-3"><?php echo $item['n_status']?></p>
               <p class="col-lg-3"><?php echo $item['c_time']?></p>
             </div>
             <div class="card-info-mid wrappers">
@@ -30,8 +31,8 @@
               </h3>
             </div>
             <div class="card-info-bottom col-lg-12">
+              <img src="<?php echo base_url('uploads/teacher_img/'.$item['t_img'])?>" width="20px" height="20px" style="object-fit: cover; border-radius:50%;" alt="Course Image"> 
               <p class="col-lg-12">Müəllim : <?php echo $item['c_teacher']?></p>
-              <!-- <p class="col-lg-6">Paylaşdı : <?php echo $item['a_name']?></p> -->
             </div>
           </div>
         </article>

@@ -68,7 +68,7 @@
   <section class="contact-us" id="contact-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <div id="map">
           
             <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
@@ -100,7 +100,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <form id="contact" action="" method="post">
+          <!-- <form id="contact" action="" method="post">
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
@@ -111,17 +111,22 @@
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Full Name" autocomplete="on" required>
+                  <input type="name" name="fname" placeholder="Full Name" autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                  <input type="text" name="femail" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  <input type="text" name="fsubject" pattern="[^ @]*@[^ @]*" placeholder="Your Title" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <textarea name="fmessage" placeholder="Your Message" ></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -130,6 +135,6 @@
                 </fieldset>
               </div>
             </div>
-          </form>
+          </form> -->
         </div>
         <?php $this->load->view('User/includes/FooterStyle'); ?>

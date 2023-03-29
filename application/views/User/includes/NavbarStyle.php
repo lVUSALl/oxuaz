@@ -13,7 +13,7 @@
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                           <li class="scroll-to-section"><a href="#services">Xidmətlərimiz</a></li>
-                          <li class="scroll-to-section"><a href="<?php echo base_url("index")?>#courses">Kurslar</a></li>
+                          <li class="scroll-to-section"><a href="#courses">Kurslar</a></li>
                           <li class="has-sub">
                               <a href="javascript:void(0)">Səhifələr</a>
                               <ul class="sub-menu">

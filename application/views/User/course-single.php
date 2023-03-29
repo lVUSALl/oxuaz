@@ -100,5 +100,7 @@
       <div class="row">
         <div class="col-lg-12">
 <div class="contact-info">
+<h4>
+  <span>
 
 <?php $this->load->view('user/includes/FooterStyle'); ?>

@@ -2,7 +2,7 @@
 class user_course extends CI_Model {
     public function get_all_course(){
         return $this->db
-            ->select('n_id, n_title, n_description, n_category, n_img, a_name, c_teacher, c_time')
+            ->select('n_id, n_title, n_description, n_category, n_status, n_img, a_name, c_teacher, c_time')
             ->order_by('n_id', 'DESC')
             ->join('admin', 'admin.a_id = news.n_updater_id', 'left')
             ->get('news')->result_array();
@@ -13,7 +13,7 @@ class user_course extends CI_Model {
         ->where('n_id',$id)
         // ->join('admin', 'admin.a_id = news.n_creator_id', 'left')
         ->get('news')->row_array();
-
+        
     }
 
     public function get_5_course(){

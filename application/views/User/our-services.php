@@ -17,40 +17,41 @@
   </section>
 
   <div class="col-lg-12" style="width: 100%; float: left; display: grid; grid-template-columns: auto auto auto;">
-    <?php foreach($get_all_course as $item){?>
-      <section class="courses1" id="course-items">
-        <div class="container1 col-lg-12">
-
-          <div class="masterclass">
-            <article class="card-masterclass col-lg-3">
-              <div class="img-mastercover">
-                <img src="<?php echo base_url('uploads/news/'.$item['n_img']) ?>" width="100%" height="225px" style="object-fit: cover;" alt="Course Image">
-              </div>
-              <div class="card-text-area col-lg-4">
-                <div class="card-info-top" style="display: flex; justify-content: space-between;">
-                 <p style="color: white;" class="col-lg-3"><?php echo $item['n_category'] ?></p>
-                 <p style="color: white;" class="col-lg-3"><?php echo $item['c_time'] ?></p>
+    <?php foreach($get_all_course as $item){ ?>
+      <?php if ($item['n_status'] == "Active") { ?>
+        <section class="courses1" id="course-items">
+          <div class="container1 col-lg-12">
+            <div class="masterclass">
+              <article class="card-masterclass col-lg-3">
+                <div class="img-mastercover">
+                  <img src="<?php echo base_url('uploads/news/'.$item['n_img']) ?>" width="100%" height="225px" style="object-fit: cover;" alt="Course Image">
                 </div>
-                <div class="card-info-mid wrappers">
-                 <h3><?php echo $item['n_title']?></h3>
-                  <h3 class="shorten"><?php echo $item['n_description'] ?>
-                  <br>
-                  <br>
-                    <a href="<?php echo base_url('course_detail/'.$item['n_id']) ?>">
-                      <button class="lookbtn">Davamına Bax</button>
-                    </a>
-                    
-                 </h3>
+                <div class="card-text-area col-lg-4">
+                  <div class="card-info-top" style="display: flex; justify-content: space-between;">
+                  <p style="color: white;" class="col-lg-3"><?php echo $item['n_category'] ?></p>
+                  <p style="color: white;" class="col-lg-3"><?php echo $item['c_time'] ?></p>
+                  </div>
+                  <div class="card-info-mid wrappers">
+                  <h3><?php echo $item['n_title']?></h3>
+                    <h3 class="shorten"><?php echo $item['n_description'] ?>
+                    <br>
+                    <br>
+                      <a href="<?php echo base_url('course_detail/'.$item['n_id']) ?>">
+                        <button class="lookbtn">Davamına Bax</button>
+                      </a>
+                      
+                  </h3>
+                  </div>
+                  <div class="card-info-bottom col-lg-12">
+                  <p style="color: white;" class="col-lg-12">Müəllim : <?php echo $item['c_teacher'] ?></p>
+                  <!-- <p class="col-lg-6">Paylaşdı : <?php echo $item['a_name']?></p> -->
                 </div>
-                <div class="card-info-bottom col-lg-12">
-                 <p style="color: white;" class="col-lg-12">Müəllim : <?php echo $item['c_teacher'] ?></p>
-                 <!-- <p class="col-lg-6">Paylaşdı : <?php echo $item['a_name']?></p> -->
-               </div>
-              </div>
-            </article>
+                </div>
+              </article>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      <?php } ?>
     <?php } ?>
   </div>
 
