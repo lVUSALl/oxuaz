@@ -1,5 +1,5 @@
 <?php 
-class manc extends CI_Controller{
+class MANC extends CI_Controller{
 
     public function __construct() {
         parent::__construct();
@@ -35,6 +35,8 @@ class manc extends CI_Controller{
         if(!is_numeric($product_id)){
             redirect(base_url('home'));
         }
+
+        // $wrapped_desc = wordwrap($description, 95);
 
         $data['get_5_course'] = $this->user_course->get_5_course();
         $data['single_course'] = $this->user_course->get_single_course($id);

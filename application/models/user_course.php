@@ -11,7 +11,6 @@ class user_course extends CI_Model {
     public function get_single_course($id){
         return $this->db
         ->where('n_id',$id)
-        // ->join('admin', 'admin.a_id = news.n_creator_id', 'left')
         ->get('news')->row_array();
         
     }

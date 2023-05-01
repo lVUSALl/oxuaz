@@ -36,7 +36,7 @@
                   <span><?php echo $single_course['n_category']; ?></span>
                   <h4><?php echo $single_course['n_title']; ?></h4>
                   <ul class="post-info">
-                    <li><?php echo date("d M Y", strtotime($single_course['n_date'])); ?></li>
+                    <li style='font-size: 12px; position: relative; left: -20px;'><?php echo date("d M Y", strtotime($single_course['n_date'])); ?></li>
                   </ul>
                   <p style="color: black;"><?php echo $single_course['n_description']; ?></p>
 
@@ -61,7 +61,7 @@
                   <ul>
                     <?php foreach ($get_5_course as $item) { ?>
                       <li>
-                        <a href="<?php echo base_url('single/'.$item['n_id']); ?>">
+                        <a href="<?php echo base_url('course_detail/'.$item['n_id']); ?>">
                           <h5><?php echo $item['n_title']; ?></h5>
                           <span><?php echo date("d M Y", strtotime($item['n_date'])); ?></span>
                         </a>

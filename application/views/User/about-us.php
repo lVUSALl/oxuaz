@@ -153,7 +153,7 @@
             <div class="thumb">
               <img src="<?php echo base_url('assets/User/'); ?>assets/images/video-thumb.jpg" alt="">
               <div class="play-button">
-                <a rel="nofollow" href="https://www.youtube.com/templatemo" target="_blank"><i class="fa fa-play"></i></a>
+                <a rel="nofollow" href="https://www.youtube.com/watch?v=69yVImkQWcM" target="_blank"><i class="fa fa-play"></i></a>
               </div>
             </div>
           </div>

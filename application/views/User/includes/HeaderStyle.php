@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>Oxu.az | Home</title>
+    <title>Oxu.az | Oxu, Öyrən</title>
     <link href="<?php echo base_url('assets/user/'); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url('assets/user/'); ?>assets/css/fontawesome.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/user/'); ?>assets/css/templatemo-eduwell-style.css">

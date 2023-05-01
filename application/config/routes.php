@@ -51,36 +51,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 // UserSide 
-$route['default_controller'] = 'manc';
-$route['index']     = 'manc/index';
-$route['about']     = 'manc/about';
-$route['contact']   = 'manc/contact';
-$route['services']  = 'manc/services';
-$route['course_detail/(.*)']  = 'manc/single_course/$1';
+$route['default_controller'] = 'MANC';
+$route['index']     = 'MANC/index';
+$route['about']     = 'MANC/about';
+$route['contact']   = 'MANC/contact';
+$route['services']  = 'MANC/services';
+$route['course_detail/(.*)']  = 'MANC/single_course/$1';
 // $route['course_detail/(.*)']  = 'manc/udetail/$1';
 
 // AdminSide
 
-$route['login_dashboard']  = 'ac/index';
-$route['login_act']        = 'ac/login_act';
-$route['log_out']          = 'ac/log_out';
+$route['login_dashboard']  = 'AC/index';
+$route['login_act']        = 'AC/login_act';
+$route['log_out']          = 'AC/log_out';
 
-$route['admin_dashboard']  = 'ac/dashboard';
+$route['admin_dashboard']  = 'AC/dashboard';
 
-$route['admin_news']       = 'ac/news';
-
-
-$route['admin_news_create']     = 'ac/news_create';
-$route['admin_news_create_act'] = 'ac/news_create_act';
+$route['admin_news']       = 'AC/news';
 
 
-$route['admin_news_delete/(.*)'] = 'ac/delete_news/$1';
-$route['admin_news_detail/(.*)'] = 'ac/news_detail/$1';
+$route['admin_news_create']     = 'AC/news_create';
+$route['admin_news_create_act'] = 'AC/news_create_act';
 
 
-$route['admin_news_edit/(.*)']     = 'ac/news_edit/$1';
-$route['admin_news_edit_act/(.*)'] = 'ac/news_edit_act/$1';
-$route['admin_news_img_delete/(.*)'] = 'ac/news_img_delete/$1';
+$route['admin_news_delete/(.*)'] = 'AC/delete_news/$1';
+$route['admin_news_detail/(.*)'] = 'AC/news_detail/$1';
+
+
+$route['admin_news_edit/(.*)']     = 'AC/news_edit/$1';
+$route['admin_news_edit_act/(.*)'] = 'AC/news_edit_act/$1';
+$route['admin_news_img_delete/(.*)'] = 'AC/news_img_delete/$1';
 
 // XSide
 $route['404_override'] = '';

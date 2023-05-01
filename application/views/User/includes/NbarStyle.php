@@ -12,9 +12,18 @@
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li><a href="<?php echo base_url("index")?>">Home</a></li>
-                          <li><a href="<?php echo base_url('about') ?>">Haqqımızda</a></li>
+                          <li><a href="<?php echo base_url('services') ?>">Xidmətlərimiz</a></li>
+                          <li><a href="<?php echo base_url('services') ?>">Kurslar</a></li>
+                          <li class="has-sub">
+                              <a href="javascript:void(0)">Səhifələr</a>
+                              <ul class="sub-menu">
+                                  <li><a href="<?php echo base_url('about') ?>">Haqqımızda</a></li>
+                                  <li><a href="<?php echo base_url('services') ?>">Kurslarımız</a></li>
+                                  <li><a href="<?php echo base_url('contact') ?>">Əlaqə</a></li>
+                              </ul>
+                          </li>
                           <li><a href="<?php echo base_url("contact")?>">Bizimlə Əlaqə</a></li> 
-                      </ul>        
+                      </ul>    
                       <a class='menu-trigger'>
                           <span>Menu</span>
                       </a>
